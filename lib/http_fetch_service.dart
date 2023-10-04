@@ -15,11 +15,11 @@ import 'package:http/http.dart' as http;
 //Klassen för att fetcha datat
 
 class Service {
-  final String _dataPortalenApiKey = "718239d2-d16b-40fb-b0ff-5a333d18f6b4";
-  final String _trafikverketApiKey = "c2b6907463164975a89f8fbce3e9f8d9";
-  final String _cycleStreetsApiKey = "a38b3c3ac682b677";
+  final String _dataPortalenApiKey = "apikey";
+  final String _trafikverketApiKey = "apikey";
+  final String _cycleStreetsApiKey = "apikey";
   final String _pumpsFilePath = "assets/files/backup_pumps.json";
-  final String _googleApiKey = "AIzaSyB1SCDPQTve0fb08847Wzgl-BoaYY8Qwuo";
+  final String _googleApiKey = "apikey";
 
   routePlanner.Marker marker;
   String lastRouteSearched;
